@@ -1,9 +1,11 @@
 import { Layout } from "../component/Layout";
 
-export default function HomePage() {
+const About = () => {
   return (
     <Layout>
-      <h1> Home page</h1>
+      <h1>About page</h1>
     </Layout>
   );
-}
+};
+
+export default About;

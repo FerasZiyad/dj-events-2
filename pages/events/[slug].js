@@ -1,8 +1,14 @@
+import { Layout } from "../../component/Layout";
+import { useRouter } from "next/Router";
+
 const EventDetails = () => {
+  const router = useRouter();
+
   return (
-    <div>
+    <Layout title={"event"}>
       <h1>event details</h1>
-    </div>
+      <h1>{router.query.slug}</h1>
+    </Layout>
   );
 };
 

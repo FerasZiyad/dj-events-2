@@ -1,5 +1,7 @@
+import { Layout } from "../../component/Layout";
+
 const AddNewEvent = () => {
-  return <div>Adding new Event</div>;
+  return <Layout title={"Add new Event"}>Adding new Event</Layout>;
 };
 
 export default AddNewEvent;
