@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../../styles/Layout.module.css";
-import Header from "../Header";
-import Footer from "../Footer";
+import styles from "@/styles/Layout.module.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
-export const Layout = ({ title, description, keywords, children }) => {
+export default function Layout({ title, description, keywords, children }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +16,7 @@ export const Layout = ({ title, description, keywords, children }) => {
       <Footer />
     </div>
   );
-};
+}
 
 Layout.defaultProps = {
   title: "DJ Events | Find the hottest parties",

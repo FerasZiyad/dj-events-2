@@ -1,4 +1,4 @@
-import { Layout } from "../../component/Layout";
+import Layout from "@/components/Layout";
 import { useRouter } from "next/Router";
 
 const EventDetails = () => {

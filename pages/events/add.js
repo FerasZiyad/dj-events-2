@@ -1,4 +1,4 @@
-import { Layout } from "../../component/Layout";
+import Layout from "@/components/Layout";
 
 const AddNewEvent = () => {
   return <Layout title={"Add new Event"}>Adding new Event</Layout>;
